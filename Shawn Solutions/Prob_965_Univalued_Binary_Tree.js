@@ -4,7 +4,10 @@
   Return true if and only if the given tree is univalued.
 */
 
-/* Solution: */
+/**
+ * @param {TreeNode} root
+ * @return {boolean}
+ */
 
 function isUnivalTree(root) {
     function traverseTree(node) {
