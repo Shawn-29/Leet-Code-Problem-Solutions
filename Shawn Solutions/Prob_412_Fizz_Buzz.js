@@ -12,7 +12,7 @@
 
 function fizzBuzz(n) {
     // return an array with n elements
-    // increment i becauses we are using and index but we want to start at 1
+    // increment i becauses we are using an index but we want to start at 1
     return Array.from({length: n}, (_, i) =>
         ((++i % 3 == 0 ? 'Fizz' : '') + (i % 5 == 0 ? 'Buzz' : '')) || i.toString(10));
 }
