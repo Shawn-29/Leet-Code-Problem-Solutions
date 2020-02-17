@@ -2,7 +2,10 @@
   Given a singly linked list, determine if it is a palindrome.
 */
 
-/* Solution: */
+/**
+ * @param {ListNode} head
+ * @return {boolean}
+ */
 
 function isPalindrome(head) {
     let res = true;
